@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.logo {
+  position: static;   /* overrides the previous `position: fixed;` */
+  width: 140px;
+  height: auto;
+  /* optional: keep it at the very top-left of the content */
+  margin: 0 0 24px 0; /* space below the logo */
+}
+
+
+footer {
+  text-align: center;
+  color: black;
+  font-size: 0.95rem;
+  padding: 24px;
+  border-top: 1px solid #ddd;
+  background-color: #f5f5f5;
+  clear: both;
+}
+span {
+  color: rgb(126, 10, 33);
+}
+
+.title-image1 {
+  float: left;
+  width: 260px;      /* desktop width */
+  height: auto;
+  border-radius: 10px;
+  margin: 0 24px 16px 0;  /* right gap + bottom gap */
+}
+
+.title-image2 {
+  float: right;
+  width: 260px;      /* desktop width */
+  height: auto;
+  border-radius: 10px;
+  margin: 0 24px 16px 0;  /* right gap + bottom gap */
+}
+
+@media (max-width: 768px) {
+  .title-image1,
+  .title-image2 {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 16px;
+  }
+}
+
+.card{
+  overflow: auto;
+}
+

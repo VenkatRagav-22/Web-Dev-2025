@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+img {
+  border: solid coral;
+  padding: 10px;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: sandybrown;
+  text-align: center;
+}
+
+p {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: sandybrown;
+  text-align: center;
+}
+
+div {
+  width: 50%;
+}
+
+*{
+    text-transform: uppercase;
+}
+
+.main-wrapper{
+    transform: scale(0.75);
+    transform-origin: top;
+    width: 100%;
+}
